@@ -1,0 +1,57 @@
+:root {
+  --blue: rgb(50, 139, 179);
+  --darkblue: rgb(24,69,89);
+  --red: rgb(255,64,80);
+}
+
+body {
+	width: 80vw;
+	height: 100vh;
+}
+
+.svg-container {
+	width: 95vw;
+	height: 100vh;
+	background: white;
+}
+
+.svg-contain {
+	width: 100%;
+	height: 85%;
+	background: lightgrey;
+}
+
+
+#line-pdf {
+	stroke: var(--darkblue);
+	stroke-width: 3;
+	fill: none;
+}
+
+.bar, .slice {
+	stroke: black;
+	fill: none;
+}
+
+.hist {
+	stroke: none;
+	fill: var(--blue);
+}
+
+#xlabel, #ylabel {
+	font-size: 12px;
+}
+
+.legend-slice {
+	stroke: black;
+	fill: none;
+}
+
+.legend-pdf {
+	fill: var(--darkblue);
+	stroke: var(--darkblue);
+}
+
+.legend-hist {
+	fill: var(--blue);
+}
