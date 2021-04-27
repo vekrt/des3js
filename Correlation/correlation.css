@@ -1,0 +1,54 @@
+:root {
+  --blue: rgb(50, 139, 179);
+  --darkblue: rgb(24,69,89);
+  --red: rgb(255,64,80);
+}
+
+body {
+	width: 80vw;
+	height: 100vh;
+}
+
+.svg-container {
+	width: 95vw;
+	height: 100vh;
+	background: white;
+}
+
+.svg-contain {
+	width: 100%;
+	height: 1000px;
+	background: lightgrey;
+}
+
+#x-axis, #y-axis {
+	stroke-width: 1;
+	font-size: 12px;
+}
+/*
+rect {
+	fill: var(--blue);
+}
+*/
+
+.legend-hist {
+	fill: var(--blue);
+	stroke: var(--darkblue);
+	stroke-width: 3;
+}
+
+.axis {
+	fill: none;
+	stroke: black;
+	stroke-width: 2;
+}
+
+.ticker {
+	font-size: 12px;
+}
+
+.column, .row {
+	fill: grey;
+	font-size: 12px;
+	stroke: none;
+}
